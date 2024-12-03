@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .konten {
+            content: "tidak berubah kontennya"
+        }
+        .konten::before {
+            content: "Sebelum"
+        }
+        .konten::after {
+            content: "Sesudah";
+        }
+    </style>
+</head>
+<body>
+    <p class="konten">Ini konten</p>
+</body>
+</html>
